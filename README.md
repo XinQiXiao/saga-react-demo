@@ -1,3 +1,35 @@
+####
+	基于react 练习 
+		redux 
+		redux-saga
+
+### install
+	`git clone `
+	`yarn install`
+	`yarn start`
+
+### start
+	`npm start` or `yarn start`
+
+### test
+	`npm test` or `yarn test`
+
+### eject
+	`npm run eject` or `yarn run eject`
+
+### build
+	`npm run build` or `yarn run build`
+
+
+### 参考
+	react url：https://zh-hans.reactjs.org/docs/getting-started.html
+	redux git url: https://github.com/reduxjs/redux
+		中文 url：https://www.redux.org.cn
+	react-saga git url: https://github.com/redux-saga/redux-saga
+		中文 url: https://github.com/superRaytin/redux-saga-in-chinese
+
+#### create-react-app 创建时 readme 如下
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
