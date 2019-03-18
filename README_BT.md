@@ -8,3 +8,6 @@
 			redux, react-redux, redux-saga
 
 			完成 redux-saga 介绍中设计 demo
+
+		t0.1.1  saga basic
+		t0.1.2  saga 高级

@@ -1,6 +1,8 @@
 
 import { put, takeEvery, delay, all, } from 'redux-saga/effects'
 
+import { watchAndLog, } from '../sagaAdvanced/pullingFuture'
+
 
 export function* helloSaga(){
 	yield Promise.resolve()
@@ -22,6 +24,7 @@ export function* watchIncrementAsync() {
 export default function* rootSaga() {
   yield all([
     helloSaga(),
-    watchIncrementAsync()
+    watchIncrementAsync(),
+    watchAndLog(),
   ])
 }
